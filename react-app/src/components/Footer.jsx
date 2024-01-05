@@ -22,7 +22,7 @@ const Footer = () => {
             <div className="grid grid-flow-col gap-4">
                 <a target="_blank" href='https://www.instagram.com/taisei.it'><img src='/images/Instagram_logo.png' width="24" height="24" viewBox="0 0 24 24" className="fill-current"></img></a>
                 <a target="_blank" href='https://www.facebook.com/profile.php?id=100088238918707'><img src='/images/facebook_logo.png' width="24" height="24" viewBox="0 0 24 24" className="fill-current"></img></a>
-                <a target="_blank" href='https://twitter.com/TaiseiYama15728'><img src='/images/twitter_logo.png' width="24" height="24" viewBox="0 0 24 24" className="fill-current"></img></a>
+                <a target="_blank" href='https://twitter.com/TaiseiYama15728'><img src='/images/x_logo.png' width="24" height="24" viewBox="0 0 24 24" className="fill-current"></img></a>
                 <a target="_blank" href='https://www.linkedin.com/in/taisei-yamaguchi-8b2289272/'><img src='/images/linked_in_logo.png' width="24" height="24" viewBox="0 0 24 24" className="fill-current"></img></a>
                 <a target="_blank" href='https://github.com/Taisei-Yamaguchi'><img src='/images/github-icon.svg' width="24" height="24" viewBox="0 0 24 24" className="fill-current"></img></a>
                 <a target="_blank" href='https://medium.com/@aries0326taisei'><img src='/images/medium-icon.svg' width="24" height="24" viewBox="0 0 24 24" className="fill-current"></img></a>
