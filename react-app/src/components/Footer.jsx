@@ -11,9 +11,11 @@ const Footer = () => {
             <a target="_blank" href='http://13.231.31.52/laravel_chat2/Chat2/public/mypage/login' className="link link-hover">Chat App</a>
         </nav> 
         <nav>
-            <header className="footer-title">Company</header> 
+            <header className="footer-title"></header> 
+            <NavLink to='/profile' className="link link-hover">Profile</NavLink>
             <NavLink to='/about' className="link link-hover">About</NavLink>
-            <a className="link link-hover">Contact</a>
+            <NavLink to='/deliverables' className="link link-hover">Deliverables</NavLink>
+            <NavLink to='/contact' className="link link-hover">Contact</NavLink>
         </nav> 
         <nav>
             <header className="footer-title">Social</header> 

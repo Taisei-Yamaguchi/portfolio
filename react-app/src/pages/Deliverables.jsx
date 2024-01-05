@@ -3,9 +3,9 @@ import { NavLink } from 'react-router-dom';
 
 const Deliverables = () => {
     return (
-        <div className=' bg-base-200 flex flex-col items-center'>
+        <div className=' bg-base-100 flex flex-col items-center'>
         <h1 className="mb-5 text-5xl font-bold">Deliverables</h1>
-        <div className='bg-base-200 flex flex-wrap justify-center items-between'>
+        <div className='bg-base-100 flex flex-wrap justify-center items-between'>
             {/* deliverable1 */}
             <div className="card w-96 bg-base-100 shadow-xl mt-4 mr-3">
                 <div className="card-body">

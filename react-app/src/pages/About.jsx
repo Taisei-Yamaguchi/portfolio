@@ -1,17 +1,244 @@
-// Home.jsx
 import React from 'react';
 
 const About = () => {
     return (
-        <div className=' bg-base-200 flex flex-col items-center'>
+        <div className='pl-10 bg-base-100 flex flex-col items-center'>
             <h1 className="mb-5 text-5xl font-bold">About</h1>
-            <div className='flex flex-col'>
-                <div className='flex flex-row justify-around max-md:hidden'>
-                    <h2 className="mb-5 text-3xl font-bold">Education</h2>
-                    <h2 className="mb-5 text-3xl font-bold">Work</h2>
+
+            {/* skills */}
+            <div className='flex felx-col self-start mb-20'>
+                <h2 className="mb-5 text-3xl font-bold">Skills</h2>
+                <div className="overflow-x-auto">
+                    <table className="table">
+                        {/* head */}
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th></th>
+                                <th></th>    
+                            </tr>
+                            </thead>
+                    <tbody>
+                        {/* row 1 */}
+                        <tr>
+                            <td>
+                            <div className="flex items-center gap-3">
+                                <img className='w-7' src="/images/python.svg" alt="python" />
+                                <div>
+                                    <div className="font-bold">Python</div>
+                                </div>
+                            </div>
+                            </td>
+                            <td><div className='w-1/2'>
+                            
+                            </div></td>
+                            <td>★★★★★</td>
+                        </tr>
+                        {/* row 2 */}
+                        <tr>
+                            <td>
+                            <div className="flex items-center gap-3">
+                                <img className='w-7' src="/images/php.svg" alt="php" />
+                                <div>
+                                    <div className="font-bold">PHP</div>
+                                </div>
+                            </div>
+                            </td>
+                            <td><div className='w-1/2'></div></td>
+                            <td>★★★★</td>
+                        </tr>
+                        {/* row 3 */}
+                        <tr>
+                            <td>
+                            <div className="flex items-center gap-3">
+                                <img className='w-7' src="/images/javascript.svg" alt="js" />
+                                <div>
+                                    <div className="font-bold">Javascript</div>
+                                </div>
+                            </div>
+                            </td>
+                            <td><div className='w-1/2'></div></td>
+                            <td>★★★★★</td>
+                        </tr>
+                        {/* row 4 */}
+                        <tr>
+                            <td>
+                            <div className="flex items-center gap-3">
+                                <img className='w-7' src="/images/java.svg" alt="java" />
+                                <div>
+                                    <div className="font-bold">Java</div>
+                                </div>
+                            </div>
+                            </td>
+                            <td><div className='w-1/2'></div></td>
+                            <td>★★</td>
+                        </tr>
+                        {/* row 5 */}
+                        <tr>
+                            <td>
+                            <div className="flex items-center gap-3">
+                                <img className='w-7' src="/images/django.svg" alt="django" />    
+                                <div>
+                                    <div className="font-bold">Django</div>
+                                </div>
+                            </div>
+                            </td>
+                            <td><div className='w-1/2'></div></td>
+                            <td>★★★★★</td>
+                        </tr>
+
+                        {/* row 6 */}
+                        <tr>
+                            <td>
+                            <div className="flex items-center gap-3">
+                                <img className='w-7' src="/images/react.svg" alt="react" />
+                                <div>
+                                    <div className="font-bold">React</div>
+                                </div>
+                            </div>
+                            </td>
+                            <td><div className='w-1/2'></div></td>
+                            <td>★★★★★</td>
+                        </tr>
+
+                        {/* row 7 */}
+                        <tr>
+                            <td>
+                            <div className="flex items-center gap-3">
+                                <img className='w-7' src="/images/laravel.svg" alt="laravel" />
+                                <div>
+                                    <div className="font-bold">Laravel</div>
+                                </div>
+                            </div>
+                            </td>
+                            <td><div className='w-1/2'></div></td>
+                            <td>★★★★</td>
+                        </tr>
+
+                        {/* row 8 */}
+                        <tr>
+                            <td>
+                            <div className="flex items-center gap-3">
+                                <img className='w-7' src="/images/flask.svg" alt="flask" />
+                                <div>
+                                    <div className="font-bold">Flask</div>
+                                </div>
+                            </div>
+                            </td>
+                            <td><div className='w-1/2'></div></td>
+                            <td>★★★</td>
+                        </tr>
+
+                        {/* row 9 */}
+                        <tr>
+                            <td>
+                            <div className="flex items-center gap-3">
+                                <img className='w-7' src="/images/pytorch-icon.svg" alt="pytorch" />
+                                <div>
+                                    <div className="font-bold">Pytorch</div>
+                                </div>
+                            </div>
+                            </td>
+                            <td><div className='w-1/2'></div></td>
+                            <td>★★★</td>
+                        </tr>
+
+                        {/* row 10 */}
+                        <tr>
+                            <td>
+                            <div className="flex items-center gap-3">
+                                <img className='h-7' src="/images/mysql.svg" alt="mysql" />
+                                <div>
+                                    <div className="font-bold">MySQL</div>
+                                </div>
+                            </div>
+                            </td>
+                            <td><div className='w-1/2'></div></td>
+                            <td>★★★★</td>
+                        </tr>
+
+                        {/* row 11 */}
+                        <tr>
+                            <td>
+                            <div className="flex items-center gap-3">
+                                <img  className='h-7'src="/images/postgresql.svg" alt="postgresql" />
+                                <div>
+                                    <div className="font-bold">PostgreSQL</div>
+                                </div>
+                            </div>
+                            </td>
+                            <td><div className='w-1/2'></div></td>
+                            <td>★★★★</td>
+                        </tr>
+
+                        {/* row 12 */}
+                        <tr>
+                            <td>
+                            <div className="flex items-center gap-3">
+                                <div className="avatar">
+                                <div className="font-bold">Other</div>
+                                </div>
+                            </div>
+                            </td>
+                            <td><div className='w-1/2'></div></td>
+                            <td>HTML, CSS, SCSS, TypeScript, Git, GitHub, AWS(lightsail, ec2), VSC, JupiterNoytebook,
+                            Apache, Nginx
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            </div>
+
+            {/* certificate */}
+            <div className='flex felx-col self-start mb-20'>
+                <h2 className="mb-5 text-3xl font-bold">Certificates</h2>
+                <div className="overflow-x-auto">
+                <table className="table">
+                    {/* head */}
+                    <thead>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {/* row 1 */}
+                    <tr>
+                        <td>TOEIC</td>
+                        <td>870 score</td>
+                    </tr>
+                    {/* row 2 */}
+                    <tr>
+                        <td>Regular Driver's License</td>
+                        <td></td>
+                    </tr>
+                    {/* row 3 */}
+                    <tr>
+                        <td>Financial Planner Level 3</td>
+                        <td></td>
+                    </tr>
+                    {/* row 4 */}
+                    <tr>
+                        <td>Nissho Bookkeeping Level 2</td>
+                        <td></td>
+                    </tr>
+                    {/* row 5 */}
+                    <tr>
+                        <td>Real Estate Agent Exam: Passed</td>
+                        <td></td>
+                    </tr>
+                    </tbody>
+                </table>
                 </div>
-                <div className='md:hidden'>
-                    <h2 className="mb-5 text-3xl font-bold">History</h2>
+            </div>
+
+            {/* history */}
+            <div className='flex flex-col self-start'>
+            <h2 className="mb-5 text-3xl font-bold self-start">History</h2>
+                <div className='flex flex-row justify-around max-md:hidden'>
+                    <h2 className="mb-5 text-xl font-bold">Education</h2>
+                    <h2 className="mb-5 text-xl font-bold">Work</h2>
                 </div>
                 <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
                     <li>

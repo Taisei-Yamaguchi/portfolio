@@ -7,7 +7,8 @@ import SideBar from './components/SideBar';
 import Home from './pages/Home';
 import About from './pages/About';
 import Deliverables from './pages/Deliverables';
-import Skills from './pages/Skills';
+import Profile from './pages/Profile';
+import Contact from './pages/Contact';
 
 const App = () => {
   return (
@@ -20,9 +21,10 @@ const App = () => {
             <div className='w-full'>
               <Routes>
                 <Route path="/"  element={<Home />} />
+                <Route path="/profile"  element={<Profile />} />
                 <Route path="/about"  element={<About />} />
                 <Route path="/deliverables"  element={<Deliverables />} />
-                <Route path="/skills"  element={<Skills />} />
+                <Route path="/contact"  element={<Contact />} />
               </Routes>
             </div>
             <div >

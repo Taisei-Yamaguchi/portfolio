@@ -11,9 +11,10 @@ const Header = () => {
                 </div>
                 <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                     <li><NavLink to='/'>Top</NavLink></li>
+                    <li><NavLink to='/profile'>Profile</NavLink></li>
                     <li><NavLink to='/about'>About</NavLink></li>
                     <li><NavLink to='/deliverables'>Deliverables</NavLink></li>
-                    
+                    <li><NavLink to='/contact'>Contact</NavLink></li>
                 </ul>
                 </div>
             </div>
