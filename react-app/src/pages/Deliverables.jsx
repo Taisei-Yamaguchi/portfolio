@@ -80,7 +80,7 @@ const Deliverables = () => {
                         <a target='_blank' href='https://github.com/Taisei-Yamaguchi/oop-final-Drag-n-Drop' className='link'>GitHub</a>
                         </div>
                     <p className="py-4">This is a model site for Project management created for a school project. It was developed with an object-oriented approach in mind.</p>
-                        <video src='/images/OOP-Final.mov' alt='Drag-n-Drop' muted></video>
+                        <img src='/images/oop-final.png' alt='Drag-n-Drop'></img>
                     </div>
                 </dialog>
             </div>
@@ -117,8 +117,8 @@ const Deliverables = () => {
                     <p className="py-4">
                     This is a model site for ToDoList created for a school project. It was developed with an object-oriented approach in mind.
                     </p>
-                    <video src='/images/ToDoList.mov' alt='ToDoList' muted></video>
-                    </div>
+                    <img src='/images/oop-todolist.png' alt='ToDoList'></img>
+                </div>
                 </dialog>
             </div>
 
