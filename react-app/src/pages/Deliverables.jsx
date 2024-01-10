@@ -65,7 +65,7 @@ const Deliverables = () => {
                 </div>
 
                 <figure onClick={()=>document.getElementById('my_modal_oop_final').showModal()}>  
-                    <video src='/images/OOP-Final.mov' alt='Drag-n-Drop' loop autoPlay muted></video>
+                    <img src='/images/oop-final.png' alt='Drag-n-Drop'></img>
                 </figure>
                 {/* You can open the modal using document.getElementById('ID').showModal() method */}
                 <dialog id="my_modal_oop_final" className="modal">
@@ -80,7 +80,7 @@ const Deliverables = () => {
                         <a target='_blank' href='https://github.com/Taisei-Yamaguchi/oop-final-Drag-n-Drop' className='link'>GitHub</a>
                         </div>
                     <p className="py-4">This is a model site for Project management created for a school project. It was developed with an object-oriented approach in mind.</p>
-                        <video src='/images/OOP-Final.mov' alt='Drag-n-Drop' loop autoPlay muted></video>
+                        <video src='/images/OOP-Final.mov' alt='Drag-n-Drop' autoPlay loop muted></video>
                     </div>
                 </dialog>
             </div>
@@ -100,7 +100,7 @@ const Deliverables = () => {
                 </div>
 
                 <figure onClick={()=>document.getElementById('my_modal_oop_asignment').showModal()}>  
-                    <video src='/images/ToDoList.mov' alt='ToDoList' loop autoPlay muted></video>
+                    <img src='/images/oop-todolist.png' alt='ToDoList'></img>
                 </figure>
                 {/* You can open the modal using document.getElementById('ID').showModal() method */}
                 <dialog id="my_modal_oop_asignment" className="modal">
