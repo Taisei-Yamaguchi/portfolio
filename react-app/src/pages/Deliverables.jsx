@@ -6,6 +6,89 @@ const Deliverables = () => {
         <div className=' bg-base-100 flex flex-col items-center'>
         <h1 className="mb-5 text-5xl font-bold">Deliverables</h1>
         <div className='bg-base-100 flex flex-wrap justify-center items-between'>
+
+            {/* deliverable-new1 */}
+            <div className="card w-96 bg-base-100 shadow-xl mt-4 mr-3">
+                <div className="card-body">
+                    <h2 className="card-title">
+                        <a className='link link-hover' href='https://github.com/Taisei-Yamaguchi/todo-app-react-native' target='_blank'>Todo App (React Native)</a>
+                        <div className="badge badge-secondary">NEW</div>
+                    </h2>
+                    <div className="card-actions justify-end">
+                        <div className="badge badge-outline">React Native</div> 
+                    </div>
+                </div>
+
+                <figure onClick={()=>document.getElementById('my_modal_todo_rn').showModal()}>  
+                    <img className='h-72' src="/images/todo-phone.png" alt="todo" />
+                </figure>
+                {/* You can open the modal using document.getElementById('ID').showModal() method */}
+                <dialog id="my_modal_todo_rn" className="modal">
+                <div className="modal-box h-2/3">
+                    <form method="dialog">
+                    {/* if there is a button in form, it will close the modal */}
+                    <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                    </form>
+
+                    <h3 className="font-bold text-lg">Todo App (React Native) (2024.1)</h3>
+                        <div className='flex flex-col'>
+                        <a target='_blank' href='https://github.com/Taisei-Yamaguchi/todo-app-react-native' className='link'>GitHub</a>
+                        </div>
+                    <p className="py-4">
+                    I created a todo-app for smartphones with react native. You can create your own list and manage tasks by type, set a deadline, and alert when that date is approaching.
+                    </p>
+                    <img className='w-3/4' src="/images/todo1.jpg" alt="todo" />
+                    <img className='w-3/4' src="/images/todo2.jpg" alt="todo" />
+                    <img className='w-3/4' src="/images/todo3.jpg" alt="todo" />
+                    <img className='w-3/4' src="/images/todo4.jpg" alt="todo" />
+                </div>
+                </dialog>
+            </div>
+
+            {/* deliverable-new2 */}
+            <div className="card w-96 bg-base-100 shadow-xl mt-4 mr-3">
+                <div className="card-body">
+                    <h2 className="card-title">
+                        <a className=''>node.js Mideterm Project (TinyURL)</a>
+                        <div className="badge badge-secondary">NEW</div>
+                    </h2>
+                    <div className="card-actions justify-end">
+                        <div className="badge badge-outline">node.js</div> 
+                        <div className="badge badge-outline">Express</div>
+                        <div className="badge badge-outline">Javascript</div>
+                        <div className="badge badge-outline">Typescript</div>
+                        <div className="badge badge-outline">tailwind</div>
+                    </div>
+                </div>
+
+                <figure className='md:flex-col' onClick={()=>document.getElementById('my_modal_node_mp').showModal()}>  
+                    <img className='h-72' src="/images/node-MP-urls.png" alt="node-mp" />
+                </figure>
+                {/* You can open the modal using document.getElementById('ID').showModal() method */}
+                <dialog id="my_modal_node_mp" className="modal">
+                <div className="modal-box h-2/3">
+                    <form method="dialog">
+                    {/* if there is a button in form, it will close the modal */}
+                    <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                    </form>
+
+                    <h3 className="font-bold text-lg">node.js Mideterm Project (TinyURL) (2024.1)</h3>
+                        <div className='flex flex-col'>
+                        </div>
+                        <p>Colaborators: <strong>Ryosuke Yano</strong></p>
+                    <p className="py-4">
+                    We created by a team for a school project. This is an app to shorten long Url. You can redirect to long url via tniy url you created. I created login, register, logout, url data creation functions.
+                    </p>
+                    <img className='w-3/4' src="/images/node-MP-urls.png" alt="node-mp" />
+                    <img className='w-3/4' src="/images/node-MP-url.png" alt="node-mp" />
+                    <img className='w-3/4' src="/images/node-MP-create.png" alt="node-mp" />
+                    <img className='w-3/4' src="/images/node-MP-login.png" alt="node-mp" />
+                    <img className='w-3/4' src="/images/node-MP-register.png" alt="node-mp" />
+                    
+                    </div>
+                </dialog>
+            </div>
+
             {/* deliverable1 */}
             <div className="card w-96 bg-base-100 shadow-xl mt-4 mr-3">
                 <div className="card-body">
@@ -22,7 +105,7 @@ const Deliverables = () => {
                     </div>
                 </div>
 
-                <figure onClick={()=>document.getElementById('my_modal_emma').showModal()}>  
+                <figure className='' onClick={()=>document.getElementById('my_modal_emma').showModal()}>  
                     <img className='h-72' src="/images/emma/exercise-cals.png" alt="emma" />
                     <img className='h-72' src="/images/emma/meal-pfc.png" alt="emma" />
                 </figure>
@@ -49,6 +132,42 @@ const Deliverables = () => {
                 </dialog>
             </div>
 
+            {/* deliverable react-mp */}
+            <div className="card w-96 bg-base-100 shadow-xl mt-4 mr-3">
+                <div className="card-body">
+                    <h2 className="card-title">
+                        <a>React Midterm-Project: Fake Twooter</a>
+                    </h2>
+                    <div className="card-actions justify-end">
+                        <div className="badge badge-outline">Javascript</div>
+                        <div className="badge badge-outline">React</div>
+                    </div>
+                </div>
+
+                <figure onClick={()=>document.getElementById('my_modal_react_mp').showModal()}>  
+                    <img className='h-72' src='/images/react-mp-twoots1.png' alt='react-mp'></img>
+                </figure>
+                {/* You can open the modal using document.getElementById('ID').showModal() method */}
+                <dialog id="my_modal_react_mp" className="modal">
+                <div className="modal-box h-2/3">
+                    <form method="dialog">
+                    {/* if there is a button in form, it will close the modal */}
+                    <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                    </form>
+
+                    <h3 className="font-bold text-lg">React Midterm-Project: Fake Twooter (2023.11)</h3>
+                        <div className='flex flex-col'>
+                        </div>
+                        <p className="py-4">
+                        I created for a school project. You can post a message. User data and post data are stored in json files.
+                        </p>
+                            <img className='h-72' src='/images/react-mp-twoots1.png' alt='react-mp'></img>
+                            <img className='h-72' src='/images/react-mp-twoots2.png' alt='react-mp'></img>
+                            <img className='h-72' src='/images/react-mp-profile.png' alt='react-mp'></img>
+                            <img className='h-72' src='/images/react-mp-login.png' alt='react-mp'></img>
+                        </div>
+                </dialog>
+            </div>
 
             {/* deliverable2 */}
             <div className="card w-96 bg-base-100 shadow-xl mt-4 mr-3">

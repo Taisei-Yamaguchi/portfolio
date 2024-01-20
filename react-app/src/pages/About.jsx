@@ -87,7 +87,21 @@ const About = () => {
                             <td>★★★★★</td>
                         </tr>
 
-                        {/* row 6 */}
+                        {/* row6-1 */}
+                        <tr>
+                            <td>
+                            <div className="flex items-center gap-3">
+                                <img className='w-7' src="/images/nodejs-icon.svg" alt="node.js" />    
+                                <div>
+                                    <div className="font-bold">node.js</div>
+                                </div>
+                            </div>
+                            </td>
+                            <td><div className='w-1/2'></div></td>
+                            <td>★★★</td>
+                        </tr>
+
+                        {/* row 6-2 */}
                         <tr>
                             <td>
                             <div className="flex items-center gap-3">
@@ -99,6 +113,20 @@ const About = () => {
                             </td>
                             <td><div className='w-1/2'></div></td>
                             <td>★★★★★</td>
+                        </tr>
+
+                        {/* row 6-3 */}
+                        <tr>
+                            <td>
+                            <div className="flex items-center gap-3">
+                                <img className='w-7' src="/images/react.svg" alt="react" />
+                                <div>
+                                    <div className="font-bold">React Native</div>
+                                </div>
+                            </div>
+                            </td>
+                            <td><div className='w-1/2'></div></td>
+                            <td>★★</td>
                         </tr>
 
                         {/* row 7 */}
@@ -181,8 +209,8 @@ const About = () => {
                             </div>
                             </td>
                             <td><div className='w-1/2'></div></td>
-                            <td>HTML, CSS, SCSS, TypeScript, Git, GitHub, AWS(lightsail, ec2), VSC, JupiterNoytebook,
-                            Apache, Nginx
+                            <td>HTML, CSS, SCSS, tailwind, TypeScript, Express.js, JQuery, Git, GitHub, AWS(lightsail, ec2), VSC, JupiterNoytebook,
+                            Apache, Nginx etc.
                             </td>
                         </tr>
                     </tbody>
