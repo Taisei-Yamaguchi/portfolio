@@ -7,6 +7,52 @@ const Deliverables = () => {
         <h1 className="mb-5 text-5xl font-bold">Deliverables</h1>
         <div className='bg-base-100 flex flex-wrap justify-center items-between'>
 
+            {/* deliverable-new2 */}
+            <div className="card w-96 bg-base-100 shadow-xl mt-4 mr-3">
+                <div className="card-body">
+                    <h2 className="card-title">
+                        <a className=''>node.js Final Project (Interview Scheduler)</a>
+                        <div className="badge badge-secondary">NEW</div>
+                    </h2>
+                    <div className="card-actions justify-end">
+                        <div className="badge badge-outline">node.js</div> 
+                        <div className="badge badge-outline">Express</div>
+                        <div className="badge badge-outline">Javascript</div>
+                        <div className="badge badge-outline">Typescript</div>
+                        <div className="badge badge-outline">PostgreSQL</div>
+                        <div className="badge badge-outline">prisma</div>
+                        <div className="badge badge-outline">React</div>
+                    </div>
+                </div>
+
+                <figure className='md:flex-col' onClick={()=>document.getElementById('my_modal_node_fp').showModal()}>  
+                    <img className='h-72' src="/images/nodejs-fp.png" alt="node-fp" />
+                </figure>
+                {/* You can open the modal using document.getElementById('ID').showModal() method */}
+                <dialog id="my_modal_node_fp" className="modal">
+                <div className="modal-box h-2/3">
+                    <form method="dialog">
+                    {/* if there is a button in form, it will close the modal */}
+                    <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                    </form>
+
+                    <h3 className="font-bold text-lg">node.js Final Project (Interview Scheduler) (2024.2)</h3>
+                        <div className='flex flex-col'>
+                        </div>
+                        <p>Colaborators: <strong>Masahiro Kotani, Kanayo Uehara</strong></p>
+                    <p className="py-4">
+                    We created by a team for a school project. This is an app to reserve interview. 
+                    Students can reserve interview with input studentName, Day, Time and interviewer.
+                    And those data can be stored DB in backend permanently unless it's deleted.
+                    This app also include websocket. So when users edit data, in other browser you can see that change in real time.
+
+                    </p>
+                    <img className='w-3/4' src="/images/nodejs-fp.png" alt="node-fp" />
+                    </div>
+                </dialog>
+            </div>
+
+
             {/* deliverable-new1 */}
             <div className="card w-96 bg-base-100 shadow-xl mt-4 mr-3">
                 <div className="card-body">
