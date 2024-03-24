@@ -45,7 +45,7 @@ const About = () => {
                             </div>
                             </td>
                             <td><div className='w-1/2'></div></td>
-                            <td>★★★★</td>
+                            <td>★★★</td>
                         </tr>
                         {/* row 3 */}
                         <tr>
@@ -98,7 +98,7 @@ const About = () => {
                             </div>
                             </td>
                             <td><div className='w-1/2'></div></td>
-                            <td>★★★</td>
+                            <td>★★★★</td>
                         </tr>
 
                         {/* row 6-2 */}
@@ -140,7 +140,7 @@ const About = () => {
                             </div>
                             </td>
                             <td><div className='w-1/2'></div></td>
-                            <td>★★★★</td>
+                            <td>★★★</td>
                         </tr>
 
                         {/* row 8 */}
@@ -182,7 +182,7 @@ const About = () => {
                             </div>
                             </td>
                             <td><div className='w-1/2'></div></td>
-                            <td>★★★★</td>
+                            <td>★★★</td>
                         </tr>
 
                         {/* row 11 */}

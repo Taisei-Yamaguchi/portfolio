@@ -7,6 +7,51 @@ const Deliverables = () => {
         <h1 className="mb-5 text-5xl font-bold">Deliverables</h1>
         <div className='bg-base-100 flex flex-wrap justify-center items-between'>
 
+            {/* deliverable-new3 */}
+            <div className="card w-96 bg-base-100 shadow-xl mt-4 mr-3">
+                <div className="card-body">
+                    <h2 className="card-title">
+                        <a className='link link-hover' href='https://github.com/Taisei-Yamaguchi/SnackAPP-Remake' target='_blank'>SnackAPP-Remake</a>
+                        <div className="badge badge-secondary">NEW</div>
+                    </h2>
+                    <div className="card-actions justify-end">
+                        <div className="badge badge-outline">Python</div> 
+                        <div className="badge badge-outline">Django</div>
+                        <div className="badge badge-outline">Typescript</div>
+                        <div className="badge badge-outline">Next.js</div>
+                        <div className="badge badge-outline">redux</div>
+                        <div className="badge badge-outline">PostgreSQL</div>
+                        <div className="badge badge-outline">tailwind</div>
+                    </div>
+                </div>
+
+                <figure className='md:flex-col' onClick={()=>document.getElementById('my_modal_snack_remake').showModal()}>  
+                    <img className='h-72' src="/images/snack-app-remake.png" alt="snack-app-remake" />
+                </figure>
+                {/* You can open the modal using document.getElementById('ID').showModal() method */}
+                <dialog id="my_modal_snack_remake" className="modal">
+                <div className="modal-box h-2/3">
+                    <form method="dialog">
+                    {/* if there is a button in form, it will close the modal */}
+                    <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                    </form>
+
+                    <h3 className="font-bold text-lg">SnackAPP-Remake(2024.3)</h3>
+                    <div className='flex flex-col'>
+                        <a target='_blank' href='https://github.com/Taisei-Yamaguchi/SnackAPP-Remake' className='link'>GitHub</a>
+                        <a target='_blank' href='https://snack.taiseiyama.com' className='link'>App Link</a>
+                    </div>
+                    <p className="py-4">
+                    Finally, I have created a SnackApp remake. 
+                    I chose django and next.js as my development language and developed it full stack. 
+                    The goal is still the same: to help users learn about Canadian and Japanese snacks and recommend the best ones to them. 
+                    It has evolved to be more secure, flexible, robust, and improves the user experience.
+                    </p>
+                    <img className='w-3/4' src="/images/snack-app-remake.png" alt="snack-app-remake" />
+                    </div>
+                </dialog>
+            </div>
+
             {/* deliverable-new2 */}
             <div className="card w-96 bg-base-100 shadow-xl mt-4 mr-3">
                 <div className="card-body">
@@ -441,10 +486,9 @@ const Deliverables = () => {
                     <h3 className="font-bold text-lg">Snack App (2023.3 ~ 2023.6)</h3>
                         <div className='flex flex-col'>
                         <a target='_blank' href='https://github.com/Taisei-Yamaguchi/Laravel_Snack1.2' className='link'>GitHub</a>
-                        <a target='_blank' href='http://43.207.83.193/Laravel_Snack1.2/Snack1.0/public/mypage/login' className='link'>App Link</a>
                         </div>
                     <p className="py-4">
-                    This application is for sharing information about sweets and sweets from other countries. Sweets sold in Japan, where I am from, and sweets sold here in Canada are completely different. Both countries' sweets are delicious, but I could not get to know Canadian sweets while I was in Japan. I am sure it is the same for people in Canada. That is why we created this application. This application has a "Like" function, a search function, and a recommendation function. function, search function, and recommended snacks function. It also has a "Like" function. status, the application will automatically suggest the user's favorite snacks.
+                    This application is for sharing information about sweets and sweets from other countries. Sweets sold in Japan, where I am from, and sweets sold here in Canada are completely different. Both countries' sweets are delicious, but I could not get to know Canadian sweets while I was in Japan. I am sure it is the same for people in Canada. That is why we created this application. This application has a "Like" function, a "Search" function, and a "recommendation" function.  The application will automatically suggest the user's favorite snacks.
                     </p>
                     <img src='/images/snack_search_1.png' alt='Snack'></img>
                     <img src='/images/snack_recommend_1.png' alt='Snack'></img>
@@ -483,7 +527,6 @@ const Deliverables = () => {
                     <h3 className="font-bold text-lg">Chat App (2023.8 ~ 2023.9)</h3>
                         <div className='flex flex-col'>
                         <a target='_blank' href='https://github.com/Taisei-Yamaguchi/laravel_chat2' className='link'>GitHub</a>
-                        <a target='_blank' href='http://13.231.31.52/laravel_chat2/Chat2/public/mypage/login' className='link'>App Link</a>
                         </div>
                     <p className="py-4">
                     This application allows users to communicate with each other. Although simple, it has basic functions such as posting, replying, and deleting.

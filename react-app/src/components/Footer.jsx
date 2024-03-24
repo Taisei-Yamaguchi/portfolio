@@ -7,8 +7,7 @@ const Footer = () => {
         <nav>
             <header className="footer-title">Services</header> 
             <a target="_blank" href='https://emma.emmapet.net/' className="link link-hover">EMMA Pet</a>
-            <a target="_blank" href='http://43.207.83.193/Laravel_Snack1.2/Snack1.0/public/mypage/login' className="link link-hover">Snack App</a>
-            <a target="_blank" href='http://13.231.31.52/laravel_chat2/Chat2/public/mypage/login' className="link link-hover">Chat App</a>
+            <a target="_blank" href='https://snack.taiseiyama.com/' className="link link-hover">Snack App</a>
         </nav> 
         <nav>
             <header className="footer-title"></header> 

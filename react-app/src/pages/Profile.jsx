@@ -19,7 +19,7 @@ const Profile = () => {
             <div className='flex flex-col self-start mb-10'>
                 <h2 className="mb-5 text-3xl font-bold">Why am I aspiring to be engineer?</h2>
                 <div className='text-sm'>
-                I have experience using programming in the laboratory to analyze experimental results, I was fascinated by its convenience. Through this experience, I learned about the field of web development and decided to pursue a career as an engineer, I decided to pursue a career as an engineer.
+                I have experience using programming in the laboratory to analyze experimental results, I was fascinated by its convenience. Through this experience, I learned about the field of web development and decided to pursue a career as an engineer.
                 </div>
             </div>
 
@@ -27,7 +27,7 @@ const Profile = () => {
             <div className='flex flex-col self-start mb-10'>
                 <h2 className="mb-5 text-3xl font-bold">Interest, Thought</h2>
                 <div className='text-sm'>
-                Interested in developing web services that bring benefits to users, I am interested in providing easy-to-use and valuable products. I am particularly interested in back-end development, I am interested in challenging myself with advanced algorithms and data processing. AI is also of strong interest because of its usefulness.
+                I am interested in developing web services that bring benefits to users. My focus lies in providing easy-to-use and valuable products. I have a particular interest in back-end development and challenging myself with advanced algorithms and data processing. Additionally, I am strongly interested in AI due to its usefulness.
                 </div>
             </div>
 
