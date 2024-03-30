@@ -7,6 +7,53 @@ const Deliverables = () => {
         <h1 className="mb-5 text-5xl font-bold">Deliverables</h1>
         <div className='bg-base-100 flex flex-wrap justify-center items-between'>
 
+
+            {/* deliverable-new4 */}
+            <div className="card w-96 bg-base-100 shadow-xl mt-4 mr-3">
+                <div className="card-body">
+                    <h2 className="card-title">
+                        <a className='link link-hover' href='https://github.com/Taisei-Yamaguchi/Chat-Board-Remake' target='_blank'>Chat Board Remake</a>
+                        <div className="badge badge-secondary">NEW</div>
+                    </h2>
+                    <div className="card-actions justify-end">
+                        <div className="badge badge-outline">Python</div> 
+                        <div className="badge badge-outline">Django</div>
+                        <div className="badge badge-outline">Typescript</div>
+                        <div className="badge badge-outline">Next.js</div>
+                        <div className="badge badge-outline">redux</div>
+                        <div className="badge badge-outline">PostgreSQL</div>
+                        <div className="badge badge-outline">tailwind</div>
+                    </div>
+                </div>
+
+                <figure className='md:flex-col' onClick={()=>document.getElementById('my_modal_chat_remake').showModal()}>  
+                    <img className='h-72' src="/images/chat-board-remake.png" alt="chat-board-remake" />
+                </figure>
+                {/* You can open the modal using document.getElementById('ID').showModal() method */}
+                <dialog id="my_modal_chat_remake" className="modal">
+                <div className="modal-box h-2/3">
+                    <form method="dialog">
+                    {/* if there is a button in form, it will close the modal */}
+                    <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                    </form>
+
+                    <h3 className="font-bold text-lg">SnackAPP-Remake(2024.3)</h3>
+                    <div className='flex flex-col'>
+                        <a target='_blank' href='https://github.com/Taisei-Yamaguchi/Chat-Board-Remake' className='link'>GitHub</a>
+                        <a target='_blank' href='https://chat.taiseiyama.com' className='link'>App Link</a>
+                    </div>
+                    <p className="py-4">
+                    Finally, I have created a Chat App remake.
+                    It includes more functions like posting images and creating board depending on topic.
+                    The purpose is to allow users to communicate freely with each other on the BBS. 
+                    To minimize the amount of information required from users, increase anonymity, 
+                    and allow users to communicate with a sense of security.　
+                    </p>
+                    <img className='w-3/4' src="/images/chat-board-remake.png" alt="chat-board-remake" />
+                    </div>
+                </dialog>
+            </div>
+
             {/* deliverable-new3 */}
             <div className="card w-96 bg-base-100 shadow-xl mt-4 mr-3">
                 <div className="card-body">

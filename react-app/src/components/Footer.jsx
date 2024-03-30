@@ -8,6 +8,7 @@ const Footer = () => {
             <header className="footer-title">Services</header> 
             <a target="_blank" href='https://emma.emmapet.net/' className="link link-hover">EMMA Pet</a>
             <a target="_blank" href='https://snack.taiseiyama.com/' className="link link-hover">Snack App</a>
+            <a target="_blank" href='https://chat.taiseiyama.com/' className="link link-hover">Chat Board</a>
         </nav> 
         <nav>
             <header className="footer-title"></header> 
