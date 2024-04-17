@@ -119,6 +119,20 @@ const About = () => {
                         <tr>
                             <td>
                             <div className="flex items-center gap-3">
+                                <img className='w-7' src="/images/nextjs-icon.svg" alt="react" />
+                                <div>
+                                    <div className="font-bold">Next.js</div>
+                                </div>
+                            </div>
+                            </td>
+                            <td><div className='w-1/2'></div></td>
+                            <td>★★★★★</td>
+                        </tr>
+
+                        {/* row 6-4 */}
+                        <tr>
+                            <td>
+                            <div className="flex items-center gap-3">
                                 <img className='w-7' src="/images/react.svg" alt="react" />
                                 <div>
                                     <div className="font-bold">React Native</div>
@@ -210,7 +224,7 @@ const About = () => {
                             </td>
                             <td><div className='w-1/2'></div></td>
                             <td>HTML, CSS, SCSS, tailwind, TypeScript, Express.js, JQuery, Git, GitHub, AWS(lightsail, ec2), VSC, JupiterNoytebook,
-                            Apache, Nginx etc.
+                            Apache, Nginx, Unity, C# etc.
                             </td>
                         </tr>
                     </tbody>

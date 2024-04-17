@@ -7,6 +7,56 @@ const Deliverables = () => {
         <h1 className="mb-5 text-5xl font-bold">Deliverables</h1>
         <div className='bg-base-100 flex flex-wrap justify-center items-between'>
 
+            {/* deliverable-new5 */}
+            <div className="card w-96 bg-base-100 shadow-xl mt-4 mr-3">
+                <div className="card-body">
+                    <h2 className="card-title">
+                        <a className=''>Cornerfolio (School Project)</a>
+                        <div className="badge badge-secondary">NEW</div>
+                    </h2>
+                    <div className="card-actions justify-end">
+                        <div className="badge badge-outline">Node.js</div> 
+                        <div className="badge badge-outline">Express.js</div>
+                        <div className="badge badge-outline">Javascript</div>
+                        <div className="badge badge-outline">Typescript</div>
+                        <div className="badge badge-outline">MongoDB</div>
+                        <div className="badge badge-outline">Next.js</div>
+                        <div className="badge badge-outline">redux</div>
+                    </div>
+                </div>
+
+                <figure className='md:flex-col' onClick={()=>document.getElementById('my_modal_cornerfolio').showModal()}>  
+                    <img className='h-72' src="/images/Cornerfolio/Cornerfolio.png" alt="cornerfolio" />
+                </figure>
+                {/* You can open the modal using document.getElementById('ID').showModal() method */}
+                <dialog id="my_modal_cornerfolio" className="modal">
+                <div className="modal-box h-2/3">
+                    <form method="dialog">
+                    {/* if there is a button in form, it will close the modal */}
+                    <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                    </form>
+
+                    <h3 className="font-bold text-lg">Cornerfolio (School Project) (2024.2 ~ 2024.4 )</h3>
+                        <div className='flex flex-col'>
+                        </div>
+                        <p>Colaborators: <strong>Daniel Gonzalez, Rafael Massimo, Taiki Honda </strong></p>
+                    <p className="py-4">
+                    We created by a team for a school project. This is an app for designers to customize and publish their portfolios.
+                    I was in charge of the portfolio edit page and the preview page in particular, 
+                    and I mainly used the API developed in express.js and used it in Next.js. 
+                    Specifically, you can add text-section, image-section, image-text-section, divider-section, gallery-section, column-section, and video-section as you like. 
+                    And you can change text, fontSize, upload image. In addition, you can freely remove sections, and I have created a function to change the position of sections. 
+                    By combining these various features, users can customize their own portfolios as they wish.
+                    </p>
+                    <img className='mt-3 w-full' src="/images/Cornerfolio/Cornerfolio1.png" alt="cornerfolio" />
+                    <img className='mt-3 w-full' src="/images/Cornerfolio/Cornerfolio2.png" alt="cornerfolio" />
+                    <img className='mt-3 w-full' src="/images/Cornerfolio/Cornerfolio3.png" alt="cornerfolio" />
+                    <img className='mt-3 w-full' src="/images/Cornerfolio/Cornerfolio4.png" alt="cornerfolio" />
+                    <img className='mt-3 w-full' src="/images/Cornerfolio/Cornerfolio5.png" alt="cornerfolio" />
+                    
+                    </div>
+                </dialog>
+            </div>
 
             {/* deliverable-new4 */}
             <div className="card w-96 bg-base-100 shadow-xl mt-4 mr-3">
