@@ -38,8 +38,11 @@ const Deliverables = () => {
 
                     <h3 className="font-bold text-lg">Cornerfolio (School Project) (2024.2 ~ 2024.4 )</h3>
                         <div className='flex flex-col'>
+                            <a target='_blank' href='https://cornerfolio-2024.vercel.app/' className='link'>Live version</a>
+                            <a target='_blank' href='https://cornerfolio-2024.vercel.app/VEWcKL6Z' className='link'>Example of cistomized portfolio</a>
+                            <p>Colaborators: <strong>Daniel Gonzalez, Rafael Massimo, Taiki Honda </strong></p>
                         </div>
-                        <p>Colaborators: <strong>Daniel Gonzalez, Rafael Massimo, Taiki Honda </strong></p>
+                        
                     <p className="py-4">
                     We created by a team for a school project. This is an app for designers to customize and publish their portfolios.
                     I was in charge of the portfolio edit page and the preview page in particular, 
