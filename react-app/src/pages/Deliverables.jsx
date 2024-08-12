@@ -7,12 +7,67 @@ const Deliverables = () => {
         <h1 className="mb-5 text-5xl font-bold">Deliverables</h1>
         <div className='bg-base-100 flex flex-wrap justify-center items-between'>
 
+            {/* deliverable-new6 */}
+            <div className="card w-96 bg-base-100 shadow-xl mt-4 mr-3">
+                <div className="card-body">
+                    <h2 className="card-title">
+                        <a target='_blank' href='https://wellnessmons.com'>Wellness Mons - Health App</a>
+                        <div className="badge badge-secondary">NEW</div>
+                    </h2>
+                    <div className="card-actions justify-end">
+                        <div className="badge badge-outline">Next.js</div> 
+                        <div className="badge badge-outline">Typescript</div>
+                        <div className="badge badge-outline">Tailwind</div>
+                        <div className="badge badge-outline">Redux</div>
+                        <div className="badge badge-outline">React Native</div>
+                        <div className="badge badge-outline">Python</div>
+                        <div className="badge badge-outline">Django</div>
+                        <div className="badge badge-outline">PostgreSQL</div>
+                        <div className="badge badge-outline">AWS</div>
+                        <div className="badge badge-outline">Nginx</div>
+                    </div>
+                </div>
+
+                <figure className='md:flex-col' onClick={()=>document.getElementById('my_modal_wellnessmons').showModal()}>  
+                    <img className='h-72' src="/images/wellnessmons/home.png" alt="wellnessmons" />
+                </figure>
+                {/* You can open the modal using document.getElementById('ID').showModal() method */}
+                <dialog id="my_modal_wellnessmons" className="modal">
+                <div className="modal-box h-2/3">
+                    <form method="dialog">
+                    {/* if there is a button in form, it will close the modal */}
+                    <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                    </form>
+
+                    <h3 className="font-bold text-lg">Wellness Mons (2024.5 ~ 2024.8 )</h3>
+                        <div className='flex flex-col'>
+                            <a target='_blank' href='https://wellnessmons.com' className='link'>Live version</a>
+                        </div>
+                        
+                        <p className="py-4">Wellness Mons - Health App is a project designed to accurately and objectively understand the balance of calories and nutrients related to exercise, diet, and daily life. It aims to provide users with effective support for body transformation, diet, health maintenance, bulking, cutting, and other goals.
+                    </p>
+
+                    <div className='flex flex-wrap'>
+                        <img className='mt-3 w-1/2' src="/images/wellnessmons/wellnessmons-android-1.png" alt="wellnessmons" />
+                        <img className='mt-3 w-1/2' src="/images/wellnessmons/wellnessmons-android-2.png" alt="wellnessmons" />
+                        <img className='mt-3 w-1/2' src="/images/wellnessmons/wellnessmons-android-3.png" alt="wellnessmons" />
+                        <img className='mt-3 w-1/2' src="/images/wellnessmons/wellnessmons-android-5.png" alt="wellnessmons" />
+                        <img className='mt-3 w-1/2' src="/images/wellnessmons/wellnessmons-android-8.png" alt="wellnessmons" />
+                        <img className='mt-3 w-1/2' src="/images/wellnessmons/wellnessmons-android-9.png" alt="wellnessmons" />
+                        <img className='mt-3 w-1/2' src="/images/wellnessmons/wellnessmons-android-12.png" alt="wellnessmons" />
+                        <img className='mt-3 w-1/2' src="/images/wellnessmons/wellnessmons-android-13.png" alt="wellnessmons" />
+                    </div>
+
+                    </div>
+                </dialog>
+            </div>
+
             {/* deliverable-new5 */}
             <div className="card w-96 bg-base-100 shadow-xl mt-4 mr-3">
                 <div className="card-body">
                     <h2 className="card-title">
                         <a className=''>Cornerfolio (School Project)</a>
-                        <div className="badge badge-secondary">NEW</div>
+                        
                     </h2>
                     <div className="card-actions justify-end">
                         <div className="badge badge-outline">Node.js</div> 
@@ -39,7 +94,6 @@ const Deliverables = () => {
                     <h3 className="font-bold text-lg">Cornerfolio (School Project) (2024.2 ~ 2024.4 )</h3>
                         <div className='flex flex-col'>
                             <a target='_blank' href='https://cornerfolio-2024.vercel.app/' className='link'>Live version</a>
-                            <a target='_blank' href='https://cornerfolio-2024.vercel.app/VEWcKL6Z' className='link'>Example of cistomized portfolio</a>
                             <p>Colaborators: <strong>Daniel Gonzalez, Rafael Massimo, Taiki Honda </strong></p>
                         </div>
                         
@@ -66,7 +120,7 @@ const Deliverables = () => {
                 <div className="card-body">
                     <h2 className="card-title">
                         <a className='link link-hover' href='https://github.com/Taisei-Yamaguchi/Chat-Board-Remake' target='_blank'>Chat Board Remake</a>
-                        <div className="badge badge-secondary">NEW</div>
+                        
                     </h2>
                     <div className="card-actions justify-end">
                         <div className="badge badge-outline">Python</div> 
@@ -93,7 +147,6 @@ const Deliverables = () => {
                     <h3 className="font-bold text-lg">SnackAPP-Remake(2024.3)</h3>
                     <div className='flex flex-col'>
                         <a target='_blank' href='https://github.com/Taisei-Yamaguchi/Chat-Board-Remake' className='link'>GitHub</a>
-                        <a target='_blank' href='https://chat.taiseiyama.com' className='link'>App Link</a>
                     </div>
                     <p className="py-4">
                     Finally, I have created a Chat App remake.
@@ -112,7 +165,7 @@ const Deliverables = () => {
                 <div className="card-body">
                     <h2 className="card-title">
                         <a className='link link-hover' href='https://github.com/Taisei-Yamaguchi/SnackAPP-Remake' target='_blank'>SnackAPP-Remake</a>
-                        <div className="badge badge-secondary">NEW</div>
+                        
                     </h2>
                     <div className="card-actions justify-end">
                         <div className="badge badge-outline">Python</div> 
@@ -139,7 +192,6 @@ const Deliverables = () => {
                     <h3 className="font-bold text-lg">SnackAPP-Remake(2024.3)</h3>
                     <div className='flex flex-col'>
                         <a target='_blank' href='https://github.com/Taisei-Yamaguchi/SnackAPP-Remake' className='link'>GitHub</a>
-                        <a target='_blank' href='https://snack.taiseiyama.com' className='link'>App Link</a>
                     </div>
                     <p className="py-4">
                     Finally, I have created a SnackApp remake. 
@@ -157,7 +209,7 @@ const Deliverables = () => {
                 <div className="card-body">
                     <h2 className="card-title">
                         <a className=''>node.js Final Project (Interview Scheduler)</a>
-                        <div className="badge badge-secondary">NEW</div>
+                        
                     </h2>
                     <div className="card-actions justify-end">
                         <div className="badge badge-outline">node.js</div> 
@@ -203,7 +255,7 @@ const Deliverables = () => {
                 <div className="card-body">
                     <h2 className="card-title">
                         <a className='link link-hover' href='https://github.com/Taisei-Yamaguchi/todo-app-react-native' target='_blank'>Todo App (React Native)</a>
-                        <div className="badge badge-secondary">NEW</div>
+                        
                     </h2>
                     <div className="card-actions justify-end">
                         <div className="badge badge-outline">React Native</div> 
@@ -241,7 +293,7 @@ const Deliverables = () => {
                 <div className="card-body">
                     <h2 className="card-title">
                         <a className=''>node.js Mideterm Project (TinyURL)</a>
-                        <div className="badge badge-secondary">NEW</div>
+                        
                     </h2>
                     <div className="card-actions justify-end">
                         <div className="badge badge-outline">node.js</div> 
@@ -285,7 +337,7 @@ const Deliverables = () => {
                 <div className="card-body">
                     <h2 className="card-title">
                         <a className='link link-hover' href='https://github.com/Taisei-Yamaguchi/Exercise-Meal-Manage-App' target='_blank'>EMMA with Pet</a>
-                        <div className="badge badge-secondary">NEW</div>
+                        
                     </h2>
                     <div className="card-actions justify-end">
                         <div className="badge badge-outline">Python</div> 
@@ -311,7 +363,6 @@ const Deliverables = () => {
                     <h3 className="font-bold text-lg">EMMA with Pet (2023.11 ~ 2024.1)</h3>
                         <div className='flex flex-col'>
                         <a target='_blank' href='https://github.com/Taisei-Yamaguchi/Exercise-Meal-Manage-App' className='link'>GitHub</a>
-                        <a target='_blank' href='https://emma.emmapet.net/' className='link'>App Link</a>
                         </div>
                     <p className="py-4">EMMA is a project designed to accurately and objectively understand the balance of calories and nutrients related to exercise, diet, and daily life. It aims to provide users with effective support for body transformation, diet, health maintenance, bulking, cutting, and other goals.
                     </p>

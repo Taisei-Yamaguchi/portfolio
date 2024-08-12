@@ -6,9 +6,7 @@ const Footer = () => {
         <footer className="footer p-10 bg-base-300 text-base-content">
         <nav>
             <header className="footer-title">Services</header> 
-            <a target="_blank" href='https://emma.emmapet.net/' className="link link-hover">EMMA Pet</a>
-            <a target="_blank" href='https://snack.taiseiyama.com/' className="link link-hover">Snack App</a>
-            <a target="_blank" href='https://chat.taiseiyama.com/' className="link link-hover">Chat Board</a>
+            <a target="_blank" href='https://wellnessmons.com/' className="link link-hover">Wellness Mons</a>
         </nav> 
         <nav>
             <header className="footer-title"></header> 
