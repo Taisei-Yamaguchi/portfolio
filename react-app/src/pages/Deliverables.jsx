@@ -42,6 +42,7 @@ const Deliverables = () => {
                     <h3 className="font-bold text-lg">Wellness Mons (2024.5 ~ 2024.8 )</h3>
                         <div className='flex flex-col'>
                             <a target='_blank' href='https://wellnessmons.com' className='link'>Live version</a>
+                            <a target='_blank' href='https://play.google.com/store/apps/details?id=com.wellnessmons' className='link'>Android (Google Play)</a>
                         </div>
                         
                         <p className="py-4">Wellness Mons - Health App is a project designed to accurately and objectively understand the balance of calories and nutrients related to exercise, diet, and daily life. It aims to provide users with effective support for body transformation, diet, health maintenance, bulking, cutting, and other goals.
